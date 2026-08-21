@@ -45,9 +45,9 @@ filler. You need all three.
 8. **Assume the reader is capable and not yet informed.** Those are different.
    Explaining what they already know is the condescension people notice.
 9. **When the reader is a program, keep every word.** A human fills a gap
-   correctly. A parser may not. So for a tool description, an error string, a
-   memory file, or an instruction another agent will follow: keep the subject,
-   the verb, and the article even when the sentence reads longer, and drop rule
+   correctly. A parser may not. This covers tool descriptions, error strings,
+   memory files, and instructions another agent will follow. Keep the subject,
+   the verb, and the article, even where the sentence reads longer. Drop rule
    6's allowance for a trailing analogy. The other eight rules still apply.
 
 ## Why these and not the usual advice
