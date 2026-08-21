@@ -7,8 +7,8 @@ description: >-
   explanation, a status update, bad news, a code review comment, a README, a
   reply to a colleague. Triggers: plaintalk, say this plainly, make this
   readable, plain language rewrite, this reads like AI wrote it, drop the jargon,
-  simplify this explanation, stop hedging. For text that a machine parses with no
-  human present, use asd-ste100 instead.
+  simplify this explanation, stop hedging. Also apply it by default when writing
+  any explanation, status report, or reply, not only when asked.
 ---
 
 # plaintalk
@@ -44,6 +44,11 @@ filler. You need all three.
    it. Give the bad news in one sentence, then say what can be done.
 8. **Assume the reader is capable and not yet informed.** Those are different.
    Explaining what they already know is the condescension people notice.
+9. **When the reader is a program, keep every word.** A human fills a gap
+   correctly. A parser may not. So for a tool description, an error string, a
+   memory file, or an instruction another agent will follow: keep the subject,
+   the verb, and the article even when the sentence reads longer, and drop rule
+   6's allowance for a trailing analogy. The other eight rules still apply.
 
 ## Why these and not the usual advice
 
@@ -132,14 +137,10 @@ Two exceptions:
 
 ## Related
 
-- **`asd-ste100`** — for text a machine parses with no human present: tool
-  descriptions, error strings, inter-agent instructions, memory files. It is
-  stricter, and it removes tone rather than setting one. Rules 6 and 7 here are
-  compatible with it. Rule 8 has no equivalent there, because that standard has
-  no opinion about the reader.
-- **Plain language** — the existing public standard, with government style
-  guides behind it. plaintalk differs by making the tone rule explicit rather
-  than leaving it implied.
+**Plain language** is the existing public standard, with government style guides
+behind it. It covers most of the same ground. plaintalk differs by making the tone
+rule explicit rather than leaving it implied, and by naming three writers instead
+of listing thirty rules.
 
 ## Other languages
 

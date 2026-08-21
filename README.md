@@ -59,15 +59,9 @@ after, and they still have the claim.
 voice on purpose.
 
 **Text a machine parses with no human present** — tool descriptions, error
-strings, inter-agent instructions, memory files. Use
-[ASD-STE100](https://www.asd-ste100.org/) for those. It is a real controlled
-language standard. It was written so aircraft technicians cannot misread a
-maintenance step. It is stricter than this in one way: it forbids dropping words
-for rhythm. plaintalk allows that. A human reader fills the gap correctly. A
-parser may not.
-
-The short version: **plaintalk for a reader who can ask you a follow-up
-question. STE for one who cannot.**
+strings, inter-agent instructions, memory files. Rule 9 covers this case rather
+than handing it off: keep every word, and drop the trailing analogy. A human
+reader fills a gap correctly. A parser may not.
 
 ## Install
 
@@ -94,8 +88,9 @@ exists to prevent, and the file is written under its own rules for the same
 reason.
 
 **The three sources do not fully agree.** Hemingway's iceberg theory says to omit
-what the reader can infer. That is the one place plaintalk and STE split, and it
-is why there are two skills instead of one.
+what the reader can infer. That is the one rule plaintalk does not take whole,
+and it is why rule 9 exists: omission is safe for a person and unsafe for a
+parser, so the reader decides whether it applies.
 
 ## License
 
