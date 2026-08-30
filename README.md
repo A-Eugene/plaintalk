@@ -65,10 +65,11 @@ reader fills a gap correctly. A parser may not.
 
 ## Install
 
-```bash
-mkdir -p ~/.claude/skills/plaintalk
-cp SKILL.md ~/.claude/skills/plaintalk/
-```
+Claude Code: `./install.sh` (or `.\install.ps1` on Windows). Copies, never symlinks.
+
+claude.ai: upload `dist/plaintalk.zip` under Settings › Customize › Skills. Any
+paid plan with code execution on. Skills there are per-user and do not sync
+from Claude Code, so re-upload after a change.
 
 Then invoke it by name, or say "rewrite this plainly".
 
