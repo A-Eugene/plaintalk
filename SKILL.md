@@ -23,7 +23,7 @@ Each one alone fails. Small words with no shape read like a textbook. Short
 sentences with no warmth read like a machine. Warmth with no compression is
 filler. You need all three.
 
-## The eight rules
+## The nine rules
 
 1. **Put the claim in the first sentence.** Support comes after. A reader who
    stops early should still have the answer.
@@ -50,16 +50,14 @@ filler. You need all three.
    the verb, and the article, even where the sentence reads longer. Drop rule
    6's allowance for a trailing analogy. The other eight rules still apply.
 
-## Why these and not the usual advice
+## Why these
 
-"Be clear and concise" is already every model's default disposition, so
-restating it changes nothing. These eight change the output because each one
-overrides a specific habit. Hedging before the claim. Reaching for the abstract
-noun. Using metaphor as the explanation instead of after it. Padding bad news
-until the reader has to hunt for it.
+Each rule overrides a specific habit: hedging before the claim, reaching for
+the abstract noun, using metaphor as the explanation instead of after it,
+padding bad news until the reader has to hunt for it.
 
-Rule 6 is the one that does the most work. Compression is where meaning gets
-lost, and metaphor is compression.
+Rule 6 does the most work. Compression is where meaning gets lost, and
+metaphor is compression.
 
 ## Output
 
@@ -134,13 +132,6 @@ Two exceptions:
 > After: Use the queue you already have. Adding a second one means two things to
 > monitor and two places for a message to get stuck. The one you have handles
 > this volume today.
-
-## Related
-
-**Plain language** is the existing public standard, with government style guides
-behind it. It covers most of the same ground. plaintalk differs by making the tone
-rule explicit rather than leaving it implied, and by naming three writers instead
-of listing thirty rules.
 
 ## Other languages
 
