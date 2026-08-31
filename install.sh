@@ -3,4 +3,4 @@
 set -eu; cd "$(dirname "$0")"
 mkdir -p ~/.claude/skills/plaintalk && cp SKILL.md ~/.claude/skills/plaintalk/SKILL.md
 echo "installed: ~/.claude/skills/plaintalk/SKILL.md"
-echo "claude.ai: upload dist/plaintalk.zip under Settings > Customize > Skills"
+echo "claude.ai: download the GitHub zip (Code > Download ZIP) and upload it under Settings > Customize > Skills"
