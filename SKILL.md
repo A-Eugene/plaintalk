@@ -2,53 +2,49 @@
 name: plaintalk
 description: >-
   Rewrite text so a person understands it on the first read and does not feel
-  talked down to. Three constraints at once: small words, short sentences, and a
-  plain direct tone. Use when writing or revising anything a human will read — an
-  explanation, a status update, bad news, a code review comment, a README, a
-  reply to a colleague. Triggers: plaintalk, say this plainly, make this
-  readable, plain language rewrite, this reads like AI wrote it, drop the jargon,
-  simplify this explanation, stop hedging. Also apply it by default when writing
-  any explanation, status report, or reply, not only when asked.
+  talked down to. Two constraints at once: small words and a plain direct tone.
+  Use when writing or revising anything a human will read — an explanation, a
+  status update, bad news, a code review comment, a README, a reply to a
+  colleague. Triggers: plaintalk, say this plainly, make this readable, plain
+  language rewrite, this reads like AI wrote it, drop the jargon, simplify this
+  explanation, stop hedging. Also apply it by default when writing any
+  explanation, status report, or reply, not only when asked.
 ---
 
 # plaintalk
 
-Three sources. Each one controls a different thing.
+Two sources. Each one controls a different thing.
 
 - **Simple English Wikipedia** picks the words. Use the smallest word that is still exact.
-- **Hemingway** shapes the sentence. Short. Declarative. Concrete nouns. Few adjectives.
 - **Mr Rogers** sets the tone. Plain words with no condescension. Say the hard thing directly.
 
-Each one alone fails. Small words with no shape read like a textbook. Short
-sentences with no warmth read like a machine. Warmth with no compression is
-filler. You need all three.
+Each one alone fails. Small words with no warmth read like a textbook. Warmth
+with no precision is filler. You need both.
 
-## The nine rules
+## The eight rules
 
 1. **Put the claim in the first sentence.** Support comes after. A reader who
    stops early should still have the answer.
 2. **Use the smallest exact word.** Not the smallest word — the smallest one
    that is still correct. If a technical term is the clearest option, keep it
    and define it once.
-3. **One idea per sentence.** Under 20 words is a useful target. It is a target,
-   not a law.
-4. **Name the thing.** Concrete nouns beat abstract ones. "The hook" beats "the
+3. **Name the thing.** Concrete nouns beat abstract ones. "The hook" beats "the
    mechanism". "Line 26" beats "the relevant location".
-5. **Cut every adjective and adverb that does not change the meaning.** Most do
+4. **Cut every adjective and adverb that does not change the meaning.** Most do
    not. "Significantly faster" is "faster" unless you have the number, and if
    you have the number, use it.
-6. **No metaphor in the sentence that carries the claim.** State the claim
+5. **No metaphor in the sentence that carries the claim.** State the claim
    plainly first. An analogy after it is welcome, and mark it as an analogy. A
    reader who misreads a marked analogy still has the claim.
-7. **Say the hard thing plainly.** Do not soften it, pad it, or apologize around
+6. **Say the hard thing plainly.** Do not soften it, pad it, or apologize around
    it. Give the bad news in one sentence, then say what can be done.
-8. **Assume the reader is capable and not yet informed.** Those are different.
+7. **Assume the reader is capable and not yet informed.** Those are different.
    Explaining what they already know is the condescension people notice.
-9. **When the reader is a program, keep every word.** A human fills a gap
+8. **When the reader is a program, keep every word.** A human fills a gap
    correctly. A parser may not. This covers tool descriptions, error strings,
    memory files, and instructions another agent will follow. Keep the subject,
    the verb, and the article, even where the sentence reads longer. Drop rule
-   6's allowance for a trailing analogy. The other eight rules still apply.
+   5's allowance for a trailing analogy. The other seven rules still apply.
 
 ## Why these
 
@@ -56,7 +52,7 @@ Each rule overrides a specific habit: hedging before the claim, reaching for
 the abstract noun, using metaphor as the explanation instead of after it,
 padding bad news until the reader has to hunt for it.
 
-Rule 6 does the most work. Compression is where meaning gets lost, and
+Rule 5 does the most work. Compression is where meaning gets lost, and
 metaphor is compression.
 
 ## Output
@@ -100,9 +96,9 @@ Two exceptions:
 > instruction predicated on their availability becomes unfalsifiable from within
 > the session context.
 >
-> After: The hook shows the newest 45 entries. The one you need is number 26 of
-> 201. So the session never sees it. The rule says to search the file first, but
-> the session does not know there is anything to search for.
+> After: The hook shows the newest 45 entries, and the one you need is number 26
+> of 201, so the session never sees it. The rule says to search the file first,
+> but the session does not know there is anything to search for.
 
 **Bad news.**
 
@@ -110,9 +106,9 @@ Two exceptions:
 > considerations that may impact feasibility, and it might be worth revisiting
 > the assumptions underlying the original approach before proceeding further.
 >
-> After: This will not work. The two systems store dates differently, and 40% of
-> the rows would arrive wrong. We can fix the dates first, which takes about a
-> day, or we can keep the old system.
+> After: This will not work, because the two systems store dates differently and
+> 40% of the rows would arrive wrong. We can either fix the dates first, which
+> takes about a day, or keep the old system.
 
 **Admitting an error.**
 
@@ -120,8 +116,8 @@ Two exceptions:
 > which could potentially have contributed to some confusion regarding the
 > intended behavior.
 >
-> After: I was wrong. I said the cache was read-only. It is not, and that is why
-> your change disappeared.
+> After: I was wrong: I said the cache was read-only, but it is not, and that is
+> why your change disappeared.
 
 **A recommendation.**
 
@@ -129,14 +125,14 @@ Two exceptions:
 > leveraging the existing infrastructure rather than introducing additional
 > complexity into the current architecture.
 >
-> After: Use the queue you already have. Adding a second one means two things to
-> monitor and two places for a message to get stuck. The one you have handles
-> this volume today.
+> After: Use the queue you already have, since adding a second one means two
+> things to monitor and two places for a message to get stuck, and the one you
+> have handles this volume today.
 
 ## Other languages
 
-The three sources are English writers, but only Hemingway's rules are
-English-specific. Check two things before carrying them over:
+The sources are English writers, but check two things before carrying the rules
+over:
 
 - **Passive voice.** English style guides treat it as evasion. Many languages do
   not. In Indonesian the `di-` passive is often the most natural form, so forcing

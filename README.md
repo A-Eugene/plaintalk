@@ -1,7 +1,7 @@
 # plaintalk
 
-A writing style for agents, in three constraints: small words, short sentences,
-and a plain direct tone.
+A writing style for agents, in two constraints: small words and a plain direct
+tone.
 
 The rules live in [`SKILL.md`](SKILL.md). That file is the contract. This one is
 why it looks the way it does.
@@ -22,23 +22,22 @@ the paragraph.
 holds that as a default. Restating a default changes nothing. What changes the
 output is a rule that overrides a specific habit.
 
-## Why three sources
+## Why two sources
 
-Each one controls something the other two do not.
+Each one controls something the other does not.
 
 | Source | Controls | The rule |
 |---|---|---|
 | Simple English Wikipedia | words | smallest word that is still exact |
-| Ernest Hemingway | sentences | short, declarative, concrete nouns, few adjectives |
 | Fred Rogers | tone | plain words with no condescension, say the hard thing directly |
 
-Drop any one and it fails in a predictable way. Without Hemingway you get a
-textbook. Without Rogers you get a machine. Without Simple English Wikipedia you
-get something short and warm that still needs a second read.
+Drop either one and it fails in a predictable way. Without Rogers you get a
+machine. Without Simple English Wikipedia you get something warm that still
+needs a second read.
 
-Naming three writers also works better than listing thirty rules. "Write short
-sentences" is an instruction a model follows for a paragraph and then forgets.
-"Write like Hemingway" pulls a whole style the model already knows. Style
+Naming writers also works better than listing thirty rules. "Use plain words"
+is an instruction a model follows for a paragraph and then forgets. "Write like
+Simple English Wikipedia" pulls a whole register the model already knows. Style
 attractors hold better than style rules.
 
 ## The rule that does the most work
@@ -59,7 +58,7 @@ after, and they still have the claim.
 voice on purpose.
 
 **Text a machine parses with no human present** — tool descriptions, error
-strings, inter-agent instructions, memory files. Rule 9 covers this case rather
+strings, inter-agent instructions, memory files. Rule 8 covers this case rather
 than handing it off: keep every word, and drop the trailing analogy. A human
 reader fills a gap correctly. A parser may not.
 
@@ -85,15 +84,17 @@ existing standard with government style guides behind it, and it covers most of
 the same ground. plaintalk differs by making the tone rule explicit rather than
 leaving it implied, and by naming three writers instead of listing rules.
 
-**Rule 6 came from being caught.** An earlier draft of these ideas was written in
+**Rule 5 came from being caught.** An earlier draft of these ideas was written in
 dense metaphor while arguing against dense metaphor. That is the failure the rule
 exists to prevent, and the file is written under its own rules for the same
 reason.
 
-**The three sources do not fully agree.** Hemingway's iceberg theory says to omit
-what the reader can infer. That is the one rule plaintalk does not take whole,
-and it is why rule 9 exists: omission is safe for a person and unsafe for a
-parser, so the reader decides whether it applies.
+**There is no short-sentence rule, on purpose.** An earlier version carried one
+("one idea per sentence, under 20 words", after Hemingway). In blind pairwise
+tests the version without it won 7 of 8 pairings, including on readability: a
+length cap prices out the subordinate clauses that carry mechanisms and
+caveats. Do not add it back. Rule 8 keeps the one Hemingway-adjacent caution
+that survived: omission is safe for a person and unsafe for a parser.
 
 ## License
 
