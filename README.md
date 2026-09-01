@@ -82,7 +82,7 @@ your always-loaded agent instructions. That is the file that is read on arrival.
 **This is not new.** [Plain language](https://www.plainlanguage.gov/) is an
 existing standard with government style guides behind it, and it covers most of
 the same ground. plaintalk differs by making the tone rule explicit rather than
-leaving it implied, and by naming three writers instead of listing rules.
+leaving it implied, and by naming two writers instead of listing rules.
 
 **Rule 5 came from being caught.** An earlier draft of these ideas was written in
 dense metaphor while arguing against dense metaphor. That is the failure the rule
