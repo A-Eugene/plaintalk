@@ -84,6 +84,13 @@ existing standard with government style guides behind it, and it covers most of
 the same ground. plaintalk differs by making the tone rule explicit rather than
 leaving it implied, and by naming two writers instead of listing rules.
 
+**Rule 9 came from rule 5 not being enough.** A debate map was rewritten in
+plaintalk and came out full of sentences like "necessity does not excuse an act
+under a rule" and "no rule waits outside what is possible". Rule 5 never fired,
+because a writer hunting for metaphor looks for a comparison and a personifying
+verb contains none to find. The abstract subject doing a physical thing is the
+metaphor, and it hides in the verb. Rule 9 names it so the pass can catch it.
+
 **Rule 5 came from being caught.** An earlier draft of these ideas was written in
 dense metaphor while arguing against dense metaphor. That is the failure the rule
 exists to prevent, and the file is written under its own rules for the same

@@ -21,7 +21,7 @@ Two sources. Each one controls a different thing.
 Each one alone fails. Small words with no warmth read like a textbook. Warmth
 with no precision is filler. You need both.
 
-## The eight rules
+## The nine rules
 
 1. **Put the claim in the first sentence.** Support comes after. A reader who
    stops early should still have the answer.
@@ -44,7 +44,16 @@ with no precision is filler. You need both.
    correctly. A parser may not. This covers tool descriptions, error strings,
    memory files, and instructions another agent will follow. Keep the subject,
    the verb, and the article, even where the sentence reads longer. Drop rule
-   5's allowance for a trailing analogy. The other seven rules still apply.
+   5's allowance for a trailing analogy. The other eight rules still apply.
+
+9. **Do not give an abstract subject a human or physical verb.** A concept
+   cannot excuse, wait, follow, arrive, or shrink. When the sentence carrying
+   the claim does this, the verb becomes the argument, and the reader is
+   convinced by a picture instead of by the point. Name who acts, or state the
+   relation plainly. Settled idiom is fine, because nobody unpacks it: a test
+   fails, a rule applies, a file says. The check is whether the verb is
+   something only a person or a physical object can literally do. If it is, and
+   the subject is neither, rewrite the sentence.
 
 ## Why these
 
@@ -54,6 +63,10 @@ padding bad news until the reader has to hunt for it.
 
 Rule 5 does the most work. Compression is where meaning gets lost, and
 metaphor is compression.
+
+Rule 9 exists because rule 5 does not fire on a verb. A writer checking for
+metaphor looks for a comparison, and "necessity does not excuse" contains none
+to find, so it survives a pass that was meant to catch exactly this.
 
 ## Output
 
@@ -118,6 +131,16 @@ Two exceptions:
 >
 > After: I was wrong: I said the cache was read-only, but it is not, and that is
 > why your change disappeared.
+
+**An abstract claim.**
+
+> Before: Necessity does not excuse an act under a rule. It decides which rules
+> can form at all. For an animal that must eat meat, no ban ever forms. No rule
+> waits outside what is possible.
+>
+> After: No rule can forbid an act an animal must perform to live. A rule that
+> demanded it would be asking for the impossible, so it never applies in the
+> first place.
 
 **A recommendation.**
 
