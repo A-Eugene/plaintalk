@@ -84,6 +84,11 @@ existing standard with government style guides behind it, and it covers most of
 the same ground. plaintalk differs by making the tone rule explicit rather than
 leaving it implied, and by naming two writers instead of listing rules.
 
+**Rule 10 arrived from outside.** It was a standing instruction in one user's
+global config before it was a rule here. It earned the move because it is about
+writing for a reader rather than about one person's setup, so anyone who
+installs the skill gets the same benefit from it.
+
 **Rule 9 came from rule 5 not being enough.** A debate map was rewritten in
 plaintalk and came out full of sentences like "necessity does not excuse an act
 under a rule" and "no rule waits outside what is possible". Rule 5 never fired,

@@ -21,7 +21,7 @@ Two sources. Each one controls a different thing.
 Each one alone fails. Small words with no warmth read like a textbook. Warmth
 with no precision is filler. You need both.
 
-## The nine rules
+## The ten rules
 
 1. **Put the claim in the first sentence.** Support comes after. A reader who
    stops early should still have the answer.
@@ -44,7 +44,7 @@ with no precision is filler. You need both.
    correctly. A parser may not. This covers tool descriptions, error strings,
    memory files, and instructions another agent will follow. Keep the subject,
    the verb, and the article, even where the sentence reads longer. Drop rule
-   5's allowance for a trailing analogy. The other eight rules still apply.
+   5's allowance for a trailing analogy. The other nine rules still apply.
 
 9. **Do not give an abstract subject a human or physical verb.** A concept
    cannot excuse, wait, follow, arrive, or shrink. When the sentence carrying
@@ -54,6 +54,13 @@ with no precision is filler. You need both.
    fails, a rule applies, a file says. The check is whether the verb is
    something only a person or a physical object can literally do. If it is, and
    the subject is neither, rewrite the sentence.
+
+10. **Write names out. Do not invent an abbreviation.** Do not coin a short form
+    for a file, a person, a project, or a concept unless the reader used it
+    first or asked for one. A short form that reads as obvious in context is
+    unrecoverable out of it, and a reader who does not hold the expansion cannot
+    get it back. Terms that predate the text are fine: keep the ones your reader
+    already uses.
 
 ## Why these
 
