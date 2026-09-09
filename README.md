@@ -84,6 +84,15 @@ existing standard with government style guides behind it, and it covers most of
 the same ground. plaintalk differs by making the tone rule explicit rather than
 leaving it implied, and by naming two writers instead of listing rules.
 
+**Rule 11 was measured before it was added.** Four arms on four writing tasks:
+no instructions, plaintalk alone, plaintalk plus this rule, and plaintalk plus
+nine named sentence shapes to avoid. The nine shapes never appeared, not even
+with no instructions at all, so banning them suppressed nothing. This one rule
+still cut the count of interchangeable sentences from 3.33 per output to 2.50,
+and beat plaintalk alone 3-1 in blind pairwise. Evidence is thin at four
+prompts and one judge, so treat the size of the effect as a hint and the
+direction as the finding.
+
 **Rule 10 arrived from outside.** It was a standing instruction in one user's
 global config before it was a rule here. It earned the move because it is about
 writing for a reader rather than about one person's setup, so anyone who

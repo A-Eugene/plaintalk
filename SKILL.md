@@ -21,7 +21,7 @@ Two sources. Each one controls a different thing.
 Each one alone fails. Small words with no warmth read like a textbook. Warmth
 with no precision is filler. You need both.
 
-## The ten rules
+## The eleven rules
 
 1. **Put the claim in the first sentence.** Support comes after. A reader who
    stops early should still have the answer.
@@ -44,7 +44,7 @@ with no precision is filler. You need both.
    correctly. A parser may not. This covers tool descriptions, error strings,
    memory files, and instructions another agent will follow. Keep the subject,
    the verb, and the article, even where the sentence reads longer. Drop rule
-   5's allowance for a trailing analogy. The other nine rules still apply.
+   5's allowance for a trailing analogy. The other ten rules still apply.
 
 9. **Do not give an abstract subject a human or physical verb.** A concept
    cannot excuse, wait, follow, arrive, or shrink. When the sentence carrying
@@ -61,6 +61,12 @@ with no precision is filler. You need both.
     unrecoverable out of it, and a reader who does not hold the expansion cannot
     get it back. Terms that predate the text are fine: keep the ones your reader
     already uses.
+
+11. **If the sentence would be just as true of something else, it is not doing
+    work.** Replace it with a number, a name, or a verb that only this thing
+    does. "Built for teams who care about quality" fits any product ever
+    shipped. "Loads a 40MB export in under two seconds" fits one. This is a test
+    on the whole sentence, where rules 3 and 4 test the words inside it.
 
 ## Why these
 
