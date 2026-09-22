@@ -2,15 +2,19 @@
 name: plaintalk
 description: >-
   Write so a person understands it on the first read and does not feel talked
-  down to. Two constraints at once: small words and a plain direct tone. Make
-  sure to load this skill whenever you are about to write prose a human will
-  read — an explanation, a status report, a reply, a README, bad news, a code
-  review comment — even when nobody asked for it, and even when the subject is
-  technical. Load it early in a session and keep applying it to every reply
-  afterwards, not only on the turn someone says "plaintalk". Also use it when
-  rewriting someone else's text, or when asked to say something plainly, make
-  it readable, drop the jargon, simplify an explanation, stop hedging, or when
-  text reads as though AI wrote it.
+  down to. Load this skill early in every session and keep applying it to every
+  reply afterwards, not only on the turn someone says "plaintalk". It governs
+  all prose a human will read — an explanation, a status report, a reply, a
+  README, bad news, a code review comment — even when nobody asked for it, and
+  even when the subject is technical. Also use it when rewriting someone else's
+  text, or when asked to say something plainly, make it readable, drop the
+  jargon, simplify an explanation, stop hedging, or when text reads as though AI
+  wrote it. Until the body is loaded, apply at least this much: put the claim in
+  the first sentence, use the smallest word that is still exact, name the thing
+  concretely instead of abstractly, cut every adjective that does not change the
+  meaning, keep metaphor out of the sentence carrying the claim, and say the
+  hard thing plainly instead of padding it. The body carries all eleven rules,
+  the boundaries on what must not change, and worked examples.
 ---
 
 # plaintalk
