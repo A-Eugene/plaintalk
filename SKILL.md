@@ -12,9 +12,10 @@ description: >-
   wrote it. Until the body is loaded, apply at least this much: put the claim in
   the first sentence, use the smallest word that is still exact, name the thing
   concretely instead of abstractly, cut every adjective that does not change the
-  meaning, keep metaphor out of the sentence carrying the claim, and say the
-  hard thing plainly instead of padding it. The body carries all eleven rules,
-  the boundaries on what must not change, and worked examples.
+  meaning, keep metaphor out of the sentence carrying the claim, write names out
+  rather than coining a short form the reader never used, and say the hard thing
+  plainly instead of padding it. The body carries all eleven rules, the
+  boundaries on what must not change, and worked examples.
 ---
 
 # plaintalk
