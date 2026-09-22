@@ -1,14 +1,16 @@
 ---
 name: plaintalk
 description: >-
-  Rewrite text so a person understands it on the first read and does not feel
-  talked down to. Two constraints at once: small words and a plain direct tone.
-  Use when writing or revising anything a human will read — an explanation, a
-  status update, bad news, a code review comment, a README, a reply to a
-  colleague. Triggers: plaintalk, say this plainly, make this readable, plain
-  language rewrite, this reads like AI wrote it, drop the jargon, simplify this
-  explanation, stop hedging. Also apply it by default when writing any
-  explanation, status report, or reply, not only when asked.
+  Write so a person understands it on the first read and does not feel talked
+  down to. Two constraints at once: small words and a plain direct tone. Make
+  sure to load this skill whenever you are about to write prose a human will
+  read — an explanation, a status report, a reply, a README, bad news, a code
+  review comment — even when nobody asked for it, and even when the subject is
+  technical. Load it early in a session and keep applying it to every reply
+  afterwards, not only on the turn someone says "plaintalk". Also use it when
+  rewriting someone else's text, or when asked to say something plainly, make
+  it readable, drop the jargon, simplify an explanation, stop hedging, or when
+  text reads as though AI wrote it.
 ---
 
 # plaintalk
