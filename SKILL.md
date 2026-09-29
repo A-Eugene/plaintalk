@@ -14,7 +14,7 @@ description: >-
   concretely instead of abstractly, cut every adjective that does not change the
   meaning, keep metaphor out of the sentence carrying the claim, write names out
   rather than coining a short form the reader never used, and say the hard thing
-  plainly instead of padding it. The body carries all eleven rules, the
+  plainly instead of padding it. The body carries all twelve rules, the
   boundaries on what must not change, and worked examples.
 ---
 
@@ -28,7 +28,7 @@ Two sources. Each one controls a different thing.
 Each one alone fails. Small words with no warmth read like a textbook. Warmth
 with no precision is filler. You need both.
 
-## The eleven rules
+## The twelve rules
 
 1. **Put the claim in the first sentence.** Support comes after. A reader who
    stops early should still have the answer.
@@ -74,6 +74,19 @@ with no precision is filler. You need both.
     does. "Built for teams who care about quality" fits any product ever
     shipped. "Loads a 40MB export in under two seconds" fits one. This is a test
     on the whole sentence, where rules 3 and 4 test the words inside it.
+
+12. **Cut the phrasing that marks text as machine-written.** Each of these is a
+    habit readers now recognise, and once they spot one they trust the rest less.
+    - **Stock vocabulary:** delve, pivotal, crucial, tapestry, landscape (as an
+      abstraction), underscore, showcase, testament, vibrant, intricate, foster.
+      Use the plain word.
+    - **"Not just X, but Y."** State Y.
+    - **Forced threes.** Group items by how many there actually are.
+    - **Synonym cycling.** Give one thing one name and repeat it. A reader who sees
+      three names looks for three things.
+    - **Chatbot framing:** "Great question", "I hope this helps", "Let me know if".
+      Start with the answer and stop when it is done.
+    - **Generic endings:** "The future looks bright." End on a fact or a next step.
 
 ## Why these
 
