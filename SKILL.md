@@ -1,21 +1,21 @@
 ---
 name: plaintalk
 description: >-
-  Write so a person understands it on the first read and does not feel talked
-  down to. Load this skill early in every session and keep applying it to every
-  reply afterwards, not only on the turn someone says "plaintalk". It governs
-  all prose a human will read — an explanation, a status report, a reply, a
-  README, bad news, a code review comment — even when nobody asked for it, and
-  even when the subject is technical. Also use it when rewriting someone else's
-  text, or when asked to say something plainly, make it readable, drop the
-  jargon, simplify an explanation, stop hedging, or when text reads as though AI
-  wrote it. Until the body is loaded, apply at least this much: put the claim in
-  the first sentence, use the smallest word that is still exact, name the thing
-  concretely instead of abstractly, cut every adjective that does not change the
-  meaning, keep metaphor out of the sentence carrying the claim, write names out
-  rather than coining a short form the reader never used, and say the hard thing
-  plainly instead of padding it. The body carries all twelve rules, the
-  boundaries on what must not change, and worked examples.
+  Standing rules for all prose a person reads, in every reply, applied without
+  being asked. Put the claim in the first sentence. Use the smallest word that
+  is still exact, and keep a technical term when it is clearest. Name the thing
+  ("the hook", "line 26"), not an abstraction. Cut adjectives and adverbs that
+  do not change the meaning, and give the number instead of "significantly".
+  Keep metaphor out of the sentence that carries the claim. Give bad news in one
+  sentence, then what can be done. Assume the reader is capable but not yet
+  informed. Never give an abstract subject a human or physical verb: a concept
+  does not wait, excuse or arrive. Write names out, and never coin an
+  abbreviation the reader did not use. Cut any sentence that would be just as
+  true of something else. Cut machine-written tells: delve, crucial, pivotal,
+  tapestry, "not just X but Y", forced groups of three, several names for one
+  thing, "Great question", "I hope this helps", generic endings. Load this skill
+  to rewrite someone else's text plainly, or when asked for the rule table; for
+  a rewrite, return only the rewritten text.
 ---
 
 # plaintalk
