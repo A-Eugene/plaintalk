@@ -1,21 +1,13 @@
 ---
 name: plaintalk
 description: >-
-  Standing rules for all prose a person reads, in every reply, applied without
-  being asked. Put the claim in the first sentence. Use the smallest word that
-  is still exact, and keep a technical term when it is clearest. Name the thing
-  ("the hook", "line 26"), not an abstraction. Cut adjectives and adverbs that
-  do not change the meaning, and give the number instead of "significantly".
-  Keep metaphor out of the sentence that carries the claim. Give bad news in one
-  sentence, then what can be done. Assume the reader is capable but not yet
-  informed. Never give an abstract subject a human or physical verb: a concept
-  does not wait, excuse or arrive. Write names out, and never coin an
-  abbreviation the reader did not use. Cut any sentence that would be just as
-  true of something else. Cut machine-written tells: delve, crucial, pivotal,
-  tapestry, "not just X but Y", forced groups of three, several names for one
-  thing, "Great question", "I hope this helps", generic endings. Load this skill
-  to rewrite someone else's text plainly, or when asked for the rule table; for
-  a rewrite, return only the rewritten text.
+  Plain-English writing rules: the claim first, the smallest exact word,
+  concrete names, no padding, bad news said plainly, and no machine-written
+  phrasing. The plaintalk plugin puts this full text into every session at
+  startup, so the rules are always in effect. Load the skill explicitly to
+  rewrite someone else's text plainly, to simplify an explanation or drop
+  jargon, or when asked for the rule table. For a rewrite, return only the
+  rewritten text.
 ---
 
 # plaintalk

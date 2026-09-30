@@ -64,7 +64,10 @@ reader fills a gap correctly. A parser may not.
 
 ## Install
 
-Claude Code: `./install.sh` (or `.\install.ps1` on Windows). Copies, never symlinks.
+Claude Code: `./install.sh`. It copies the skill into `~/.claude/skills/plaintalk`,
+and that folder is also a plugin (`plaintalk@skills-dir`) whose startup hook puts
+the whole skill into every session, so the rules apply without the skill being
+called. On Windows, `.\install.ps1` copies the skill alone, without the hook.
 
 claude.ai: on GitHub, Code › Download ZIP, then upload that zip under
 Settings › Customize › Skills. Any paid plan with code execution on. If the

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "plaintalk",
+  "version": "1.0.0",
+  "description": "Plain-English writing rules, always in effect: a startup hook puts the full skill into every session.",
+  "author": {
+    "name": "A-Eugene"
+  },
+  "skills": [
+    "./"
+  ]
+}
