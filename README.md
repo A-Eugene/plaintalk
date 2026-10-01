@@ -120,6 +120,20 @@ length cap prices out the subordinate clauses that carry mechanisms and
 caveats. Do not add it back. Rule 8 keeps the one Hemingway-adjacent caution
 that survived: omission is safe for a person and unsafe for a parser.
 
+
+## Where it works
+
+| Surface | How | Always on? |
+|---|---|---|
+| Claude Code, this machine | `./install.sh` (the folder loads as `plaintalk@skills-dir`) | Yes, through the plugin's startup hook |
+| Claude Code, any machine | `claude plugin marketplace add A-Eugene/plaintalk` then `claude plugin install plaintalk@plaintalk` | Yes |
+| claude.ai account | Customize › Plugins › Add › Add marketplace › `A-Eugene/plaintalk` | Cowork: yes. Chat: the skill loads on demand, because chat ignores hooks. Claude Code signed into the account: yes, synced |
+| Codex | `./install.sh --codex` writes a marked block into `~/.codex/AGENTS.md` | Yes |
+| Gemini CLI | `gemini extensions install https://github.com/A-Eugene/plaintalk` (context file `SKILL.md`) | Yes, untested |
+
+Install it one way per machine. A plugin added to the claude.ai account also syncs
+into Claude Code there, and a second copy would put the same text in twice.
+
 ## License
 
 MIT

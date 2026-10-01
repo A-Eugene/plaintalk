@@ -1,0 +1,6 @@
+{
+  "name": "plaintalk",
+  "version": "1.0.0",
+  "description": "Plain-English writing rules, always in effect.",
+  "contextFileName": "SKILL.md"
+}
