@@ -64,10 +64,9 @@ reader fills a gap correctly. A parser may not.
 
 ## Install
 
-Claude Code: `./install.sh`. It copies the skill into `~/.claude/skills/plaintalk`,
-and that folder is also a plugin (`plaintalk@skills-dir`) whose startup hook puts
-the whole skill into every session, so the rules apply without the skill being
-called. On Windows, `.\install.ps1` copies the skill alone, without the hook.
+Claude Code: `./install.sh` (or `.\install.ps1` on Windows) copies the skill into
+`~/.claude/skills/plaintalk`. Copies, never symlinks. Then add the load block
+from "Where it works" to your global instructions.
 
 claude.ai: on GitHub, Code › Download ZIP, then upload that zip under
 Settings › Customize › Skills. Any paid plan with code execution on. If the
@@ -123,16 +122,28 @@ that survived: omission is safe for a person and unsafe for a parser.
 
 ## Where it works
 
-| Surface | How | Always on? |
-|---|---|---|
-| Claude Code, this machine | `./install.sh` (the folder loads as `plaintalk@skills-dir`) | Yes, through the plugin's startup hook |
-| Claude Code, any machine | `claude plugin marketplace add A-Eugene/plaintalk` then `claude plugin install plaintalk@plaintalk` | Yes |
-| claude.ai account | Customize › Plugins › Add › Add marketplace › `A-Eugene/plaintalk` | Cowork: yes. Chat: the skill loads on demand, because chat ignores hooks. Claude Code signed into the account: yes, synced |
-| Codex | `./install.sh --codex` writes a marked block into `~/.codex/AGENTS.md` | Yes |
-| Gemini CLI | `gemini extensions install https://github.com/A-Eugene/plaintalk` (context file `SKILL.md`) | Yes, untested |
+A skill's body reaches a session only when the model loads it, so the skill
+needs one instruction that is always present. Put this block in your global
+instructions: `~/.claude/CLAUDE.md` for Claude Code, Settings › Instructions for
+Claude on claude.ai. Keep the lines for the skills you install.
 
-Install it one way per machine. A plugin added to the claude.ai account also syncs
-into Claude Code there, and a second copy would put the same text in twice.
+```
+## Skills to load
+At the start of every turn, if a skill below is not already loaded in this conversation, load it before writing anything, including in resumed conversations and on tasks unrelated to writing.
+- plaintalk and house-style: every turn.
+- first-principled: only for substantial work (a design, an analysis, a choice between options, a costly decision, a verdict question), and never if you are Claude Opus 5.5.
+```
+
+Tested on Claude Code on 2026-10-01: in resumed conversations it loaded
+plaintalk and house-style on every turn, and first-principled on a design
+question on Claude Opus 5 but not on Claude Opus 5.5.
+
+| Surface | Install | What applies it |
+|---|---|---|
+| Claude Code | `./install.sh`, or `claude plugin marketplace add A-Eugene/plaintalk` then `claude plugin install plaintalk@plaintalk` | The block above in `~/.claude/CLAUDE.md` |
+| claude.ai chat and Cowork | Customize › Plugins › Add › Add marketplace › `A-Eugene/plaintalk` | The block above in Instructions for Claude |
+| Codex | `./install.sh --codex` writes a marked block into `~/.codex/AGENTS.md` | Always in context |
+| Gemini CLI | `gemini extensions install https://github.com/A-Eugene/plaintalk` | Always in context (context file `SKILL.md`), untested |
 
 ## License
 

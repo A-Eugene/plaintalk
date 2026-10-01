@@ -1,13 +1,12 @@
 ---
 name: plaintalk
 description: >-
-  Plain-English writing rules: the claim first, the smallest exact word,
-  concrete names, no padding, bad news said plainly, and no machine-written
-  phrasing. The plaintalk plugin puts this full text into every session at
-  startup, so the rules are always in effect. Load the skill explicitly to
-  rewrite someone else's text plainly, to simplify an explanation or drop
-  jargon, or when asked for the rule table. For a rewrite, return only the
-  rewritten text.
+  Plain-English writing rules for all prose a person reads: the claim first, the
+  smallest exact word, concrete names, no padding, bad news said plainly, and no
+  machine-written phrasing. Load it at the start of every turn in which it is
+  not already loaded, whatever the task. Also load it to rewrite someone else's
+  text plainly, to simplify an explanation or drop jargon, or when asked for the
+  rule table. For a rewrite, return only the rewritten text.
 ---
 
 # plaintalk

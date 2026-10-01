@@ -1,1 +1,0 @@
-plaintalk: always on, put in context at session start by the plaintalk plugin. This is the full skill, already loaded

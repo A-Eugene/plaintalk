@@ -7,7 +7,7 @@
     {
       "name": "plaintalk",
       "source": "./",
-      "description": "Plain-English writing rules, always in effect."
+      "description": "Plain-English writing rules, loaded every turn."
     }
   ]
 }
