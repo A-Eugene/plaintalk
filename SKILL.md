@@ -68,16 +68,32 @@ with no precision is filler. You need both.
 
 12. **Cut the phrasing that marks text as machine-written.** Each of these is a
     habit readers now recognise, and once they spot one they trust the rest less.
-    - **Stock vocabulary:** delve, pivotal, crucial, tapestry, landscape (as an
-      abstraction), underscore, showcase, testament, vibrant, intricate, foster.
-      Use the plain word.
-    - **"Not just X, but Y."** State Y.
+    - **Stock vocabulary:** delve, pivotal, crucial, key (as an adjective),
+      tapestry, landscape (as an abstraction), underscore, highlight, emphasize,
+      showcase, testament, vibrant, intricate, meticulous, enduring, foster,
+      enhance, bolster, garner, "Additionally" opening a sentence. Use the plain
+      word. A synonym of one of these is fine.
+    - **Stiff words for plain ones:** utilize, attempt, relocate, commence,
+      "serves as", "stands as", "boasts", "features". Write use, try, move,
+      start, is, has.
+    - **Significance padding:** a fact followed by what it supposedly
+      represents, often as a trailing "-ing" clause: ", marking a pivotal
+      moment", ", reflecting broader trends", ", highlighting its importance".
+      Delete it, or state the significance as its own claim with its evidence.
+    - **Vague sources and relations:** "experts say", "widely regarded",
+      "associated with", "connected to". Name who said it, and state the
+      relation: "was CEO of", not "was associated with".
+    - **"Not just X, but Y", "not X, but Y", "Y rather than X."** Each corrects
+      a belief. Use one only when the reader holds X. Otherwise state Y.
     - **Forced threes.** Group items by how many there actually are.
     - **Synonym cycling.** Give one thing one name and repeat it. A reader who sees
       three names looks for three things.
+    - **Gap filler:** "While details are limited, it likely…" Say what is unknown
+      and stop. Do not follow it with a guess dressed as a finding.
     - **Chatbot framing:** "Great question", "I hope this helps", "Let me know if".
       Start with the answer and stop when it is done.
-    - **Generic endings:** "The future looks bright." End on a fact or a next step.
+    - **Generic endings:** "The future looks bright", "Despite these challenges",
+      a closing line that restates the piece. End on a fact or a next step.
 
 ## Why these
 
