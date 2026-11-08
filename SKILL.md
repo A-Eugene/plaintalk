@@ -64,7 +64,9 @@ with no precision is filler. You need both.
     work.** Replace it with a number, a name, or a verb that only this thing
     does. "Built for teams who care about quality" fits any product ever
     shipped. "Loads a 40MB export in under two seconds" fits one. This is a test
-    on the whole sentence, where rules 3 and 4 test the words inside it.
+    on the whole sentence, where rules 3 and 4 test the words inside it. A
+    number, name or claim you do not have is not a fix for a vague sentence.
+    Cut the sentence instead.
 
 12. **Cut the phrasing that marks text as machine-written.** Each of these is a
     habit readers now recognise, and once they spot one they trust the rest less.
