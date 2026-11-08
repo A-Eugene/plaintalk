@@ -53,12 +53,20 @@ with no precision is filler. You need both.
    something only a person or a physical object can literally do. If it is, and
    the subject is neither, rewrite the sentence.
 
-10. **Write names out. Do not invent an abbreviation.** Do not coin a short form
-    for a file, a person, a project, or a concept unless the reader used it
-    first or asked for one. A short form that reads as obvious in context is
-    unrecoverable out of it, and a reader who does not hold the expansion cannot
-    get it back. Terms that predate the text are fine: keep the ones your reader
-    already uses.
+10. **Write names out. Do not invent an abbreviation or a label.** Do not coin a
+    short form for a file, a person, a project, or a concept unless the reader
+    used it first or asked for one. A short form that reads as obvious in
+    context is unrecoverable out of it, and a reader who does not hold the
+    expansion cannot get it back. Terms that predate the text are fine: keep the
+    ones your reader already uses.
+
+    The same holds for a label: a heading, a column name, a scenario name, a
+    figure caption. Use the term a reader outside the project already knows in
+    that meaning (backtest, lower confidence bound, payout rate), or write what
+    the thing is, even when that is longer ("the night after a day whose 24-hour
+    return is in the bottom 20% of the previous 249"). A short invented label
+    such as "floor", "slot" or "fall night" is the failure. A glossary defines
+    conventional terms. It is not a licence to keep invented ones.
 
 11. **If the sentence would be just as true of something else, it is not doing
     work.** Replace it with a number, a name, or a verb that only this thing
