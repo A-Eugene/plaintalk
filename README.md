@@ -131,12 +131,12 @@ Claude on claude.ai. Keep the lines for the skills you install.
 ## Skills to load
 At the start of every turn, if a skill below is not already loaded in this conversation, load it before writing anything, including in resumed conversations and on tasks unrelated to writing.
 - plaintalk and house-style: every turn.
-- first-principled: only for substantial work (a design, an analysis, a choice between options, a costly decision, a verdict question), and never if you are Claude Opus 5.5.
+- first-principled: only for substantial work (a design, an analysis, a choice between options, a costly decision, a verdict question).
 ```
 
 Tested on Claude Code on 2026-10-01: in resumed conversations it loaded
 plaintalk and house-style on every turn, and first-principled on a design
-question on Claude Opus 5 but not on Claude Opus 5.5.
+question on Claude Opus 5.
 
 | Surface | Install | What applies it |
 |---|---|---|
