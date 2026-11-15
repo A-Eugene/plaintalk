@@ -68,6 +68,8 @@ Claude Code: `./install.sh` (or `.\install.ps1` on Windows) copies the skill int
 `~/.claude/skills/plaintalk`. Copies, never symlinks. Then add the load block
 from "Where it works" to your global instructions.
 
+`install.sh` also registers `update.sh` as a SessionStart hook. At each session start it checks GitHub, and when `main` has moved past the installed commit it reinstalls in the background with the same command. The new version loads in the next session. An install from uncommitted or unpushed changes is left alone. `install.ps1` does not.
+
 claude.ai: on GitHub, Code › Download ZIP, then upload that zip under
 Settings › Customize › Skills. Any paid plan with code execution on. If the
 upload rejects the zip, rename the extracted folder to `plaintalk` and zip it
