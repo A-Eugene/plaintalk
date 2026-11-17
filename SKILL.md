@@ -24,10 +24,12 @@ with no precision is filler. You need both.
 1. **Put the claim in the first sentence.** The claim is the answer to the
    question asked, or the one thing the reader must act on. Reasons and evidence
    come after it. A reader who stops after the first sentence has the answer.
-2. **Use the most common word that means exactly the same thing.** "Use", not
+2. **Use the word most common in everyday English that means exactly the same
+   thing.** "Use", not
    "utilize". When no common word means the same thing, keep the technical term
    and define it the first time it appears.
-3. **Name the thing.** Concrete nouns beat abstract ones. "The hook" beats "the
+3. **Name the thing.** Use a noun for one thing the reader could point to: a
+   file, a line, a person, a number, a command. "The hook" beats "the
    mechanism". "Line 26" beats "the relevant location".
 4. **Cut every adjective and adverb that does not change the meaning.** Test
    each one: delete it, and if the sentence still states the same fact, leave it
@@ -54,10 +56,7 @@ with no precision is filler. You need both.
    cannot excuse, wait, follow, arrive, or shrink. When the sentence carrying
    the claim does this, the verb becomes the argument, and the reader is
    convinced by a picture instead of by the point. Name who acts, or state the
-   relation plainly. Settled idiom is fine, because nobody unpacks it: a test
-   fails, a rule applies, a file says. The check is whether the verb is
-   something only a person or a physical object can literally do. If it is, and
-   the subject is neither, rewrite the sentence.
+   relation plainly. These verbs are allowed with any subject, because nobody reads them as a picture: fails, passes, applies, says, shows, returns, runs, needs. For any other verb, check whether only a person or a physical object can literally do it. If so, and the subject is neither, rewrite the sentence.
 
 10. **Write names out. Do not invent an abbreviation or a label.** Do not coin a
     short form for a file, a person, a project, or a concept unless the reader
@@ -168,7 +167,7 @@ Two exceptions:
 
 **Do not:**
 
-- Apply this to marketing, fiction, or persuasion. Voice is the point there.
+- Apply this to marketing copy or fiction. Voice is the point there.
 - Add a fact, a cause, or a mechanism the original did not state. A rewrite that
   reads better because it supplied an explanation has stopped being a rewrite.
 - Cut a word whose removal lets the sentence be read two ways. Removing
@@ -235,7 +234,6 @@ The sources are English writers, but check two things before carrying the rules
 over:
 
 - **Passive voice.** English style guides treat it as evasion. Many languages do
-  not. In Indonesian the `di-` passive is often the most natural form, so forcing
-  the active voice makes the sentence worse.
+  not. In Indonesian, keep the `di-` passive. Do not turn it into the active voice.
 - **Loanwords.** Rule 2 says the most common exact word, not the most native word. If the
   borrowed technical term is what readers actually use, keep it.
