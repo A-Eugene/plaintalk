@@ -28,7 +28,7 @@ Each one controls something the other does not.
 
 | Source | Controls | The rule |
 |---|---|---|
-| Simple English Wikipedia | words | smallest word that is still exact |
+| Simple English Wikipedia | words | most common word that is still exact |
 | Fred Rogers | tone | plain words with no condescension, say the hard thing directly |
 
 Drop either one and it fails in a predictable way. Without Rogers you get a

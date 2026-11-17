@@ -2,7 +2,7 @@
 name: plaintalk
 description: >-
   Plain-English writing rules for all prose a person reads: the claim first, the
-  smallest exact word, concrete names, no padding, bad news said plainly, and no
+  most common exact word, concrete names, instructions with one reading, no padding, bad news said plainly, and no
   machine-written phrasing. Load it at the start of every turn in which it is
   not already loaded, whatever the task. Also load it to rewrite someone else's
   text plainly, to simplify an explanation or drop jargon, or when asked for the
@@ -13,36 +13,42 @@ description: >-
 
 Two sources. Each one controls a different thing.
 
-- **Simple English Wikipedia** picks the words. Use the smallest word that is still exact.
+- **Simple English Wikipedia** picks the words. Use the most common word that is still exact.
 - **Mr Rogers** sets the tone. Plain words with no condescension. Say the hard thing directly.
 
 Each one alone fails. Small words with no warmth read like a textbook. Warmth
 with no precision is filler. You need both.
 
-## The twelve rules
+## The thirteen rules
 
-1. **Put the claim in the first sentence.** Support comes after. A reader who
-   stops early should still have the answer.
-2. **Use the smallest exact word.** Not the smallest word — the smallest one
-   that is still correct. If a technical term is the clearest option, keep it
-   and define it once.
+1. **Put the claim in the first sentence.** The claim is the answer to the
+   question asked, or the one thing the reader must act on. Reasons and evidence
+   come after it. A reader who stops after the first sentence has the answer.
+2. **Use the most common word that means exactly the same thing.** "Use", not
+   "utilize". When no common word means the same thing, keep the technical term
+   and define it the first time it appears.
 3. **Name the thing.** Concrete nouns beat abstract ones. "The hook" beats "the
    mechanism". "Line 26" beats "the relevant location".
-4. **Cut every adjective and adverb that does not change the meaning.** Most do
-   not. "Significantly faster" is "faster" unless you have the number, and if
+4. **Cut every adjective and adverb that does not change the meaning.** Test
+   each one: delete it, and if the sentence still states the same fact, leave it
+   deleted. "Significantly faster" is "faster" unless you have the number, and if
    you have the number, use it.
-5. **No metaphor in the sentence that carries the claim.** State the claim
-   plainly first. An analogy after it is welcome, and mark it as an analogy. A
-   reader who misreads a marked analogy still has the claim.
-6. **Say the hard thing plainly.** Do not soften it, pad it, or apologize around
-   it. Give the bad news in one sentence, then say what can be done.
-7. **Assume the reader is capable and not yet informed.** Those are different.
+5. **No metaphor in the sentence that states the claim.** State the claim
+   literally first. An analogy may follow it in its own sentence, opened with
+   "As an analogy" or "It is like". A reader who misreads a marked analogy still
+   has the claim.
+6. **Say bad news in one sentence, then say what can be done.** Bad news is
+   anything the reader hoped would be otherwise: a failure, a cost, a no. Put no
+   apology, no praise and no hedge in front of it. Keep a hedge only when you are
+   in fact unsure.
+7. **Explain only what the reader has not been told.** Do not explain what the
+   reader said, wrote or showed they know in this conversation or document.
    Explaining what they already know is the condescension people notice.
 8. **When the reader is a program, keep every word.** A human fills a gap
    correctly. A parser may not. This covers tool descriptions, error strings,
    memory files, and instructions another agent will follow. Keep the subject,
    the verb, and the article, even where the sentence reads longer. Drop rule
-   5's allowance for a trailing analogy. The other ten rules still apply.
+   5's allowance for a trailing analogy. Every other rule still applies.
 
 9. **Do not give an abstract subject a human or physical verb.** A concept
    cannot excuse, wait, follow, arrive, or shrink. When the sentence carrying
@@ -68,8 +74,8 @@ with no precision is filler. You need both.
     such as "floor", "slot" or "fall night" is the failure. A glossary defines
     conventional terms. It is not a licence to keep invented ones.
 
-11. **If the sentence would be just as true of something else, it is not doing
-    work.** Replace it with a number, a name, or a verb that only this thing
+11. **If the sentence would be just as true of another product, project, person
+    or file, it is not doing work.** Replace it with a number, a name, or a verb that only this thing
     does. "Built for teams who care about quality" fits any product ever
     shipped. "Loads a 40MB export in under two seconds" fits one. This is a test
     on the whole sentence, where rules 3 and 4 test the words inside it. A
@@ -94,8 +100,10 @@ with no precision is filler. You need both.
       "associated with", "connected to". Name who said it, and state the
       relation: "was CEO of", not "was associated with".
     - **"Not just X, but Y", "not X, but Y", "Y rather than X."** Each corrects
-      a belief. Use one only when the reader holds X. Otherwise state Y.
-    - **Forced threes.** Group items by how many there actually are.
+      a belief. Use one only when the reader has said or written X. Otherwise
+      state Y.
+    - **Forced threes.** List as many items as there are. Do not add or merge
+      items to reach three.
     - **Synonym cycling.** Give one thing one name and repeat it. A reader who sees
       three names looks for three things.
     - **Gap filler:** "While details are limited, it likely…" Say what is unknown
@@ -104,6 +112,22 @@ with no precision is filler. You need both.
       Start with the answer and stop when it is done.
     - **Generic endings:** "The future looks bright", "Despite these challenges",
       a closing line that restates the piece. End on a fact or a next step.
+
+13. **In a text that tells the reader to decide or act, each word the decision
+    depends on has one meaning.** This covers instructions, specs, checklists and
+    acceptance criteria. For each word that could change the decision, ask: could
+    two readers who follow the text exactly, with the same facts, decide
+    differently because of this word? If yes, write out what the word leaves open:
+    - the value: "reply quickly" becomes "reply within 24 hours";
+    - the measure: "the cheapest vendor" becomes "the vendor with the lowest total
+      for 12 months, setup fees included";
+    - the edge cases: "no late submissions" becomes "a file uploaded after
+      23:59:59 is late";
+    - what to do when the condition cannot be checked: "merge when the tests pass"
+      becomes "when the tests did not run, do not merge".
+
+    When the writer has not decided a value yet, write "not decided: ask <name>
+    before acting" in its place.
 
 ## Why these
 
@@ -137,18 +161,21 @@ Two exceptions:
 - Keep every fact, number, condition, and scope qualifier from the original.
 - Keep every hedge at its original strength. "May have failed" does not become
   "failed". A hedge is a claim about confidence, and confidence is content.
-- Keep a technical term when it is the clearest word available.
-- Say when the text was already fine and needs no rewrite.
+- Keep a technical term when no common word means the same thing.
+- When no rule above changes the text, say so and return it unchanged.
+- In someone else's text, do not choose a missing value. Put "[not stated]"
+  after the word that leaves it open.
 
 **Do not:**
 
 - Apply this to marketing, fiction, or persuasion. Voice is the point there.
 - Add a fact, a cause, or a mechanism the original did not state. A rewrite that
   reads better because it supplied an explanation has stopped being a rewrite.
-- Shorten past the point of clarity. Removing ambiguity is the goal. Removing
-  words is only the usual way to get there.
+- Cut a word whose removal lets the sentence be read two ways. Removing
+  ambiguity is the goal. Removing words is only the usual way to get there.
 - Make weak content strong. A hollow paragraph rewritten in plaintalk is a short
-  clear hollow paragraph. Say the content is thin instead of polishing it.
+  clear hollow paragraph. When a paragraph has no number, name or fact that
+  passes rule 11, say so instead of polishing it.
 
 ## Examples
 
@@ -210,5 +237,5 @@ over:
 - **Passive voice.** English style guides treat it as evasion. Many languages do
   not. In Indonesian the `di-` passive is often the most natural form, so forcing
   the active voice makes the sentence worse.
-- **Loanwords.** Rule 2 says smallest exact word, not most native word. If the
+- **Loanwords.** Rule 2 says the most common exact word, not the most native word. If the
   borrowed technical term is what readers actually use, keep it.
