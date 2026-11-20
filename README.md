@@ -28,7 +28,7 @@ Each one controls something the other does not.
 
 | Source | Controls | The rule |
 |---|---|---|
-| Simple English Wikipedia | words | most common word that is still exact |
+| Simple English Wikipedia | words | the plain word when it is exact, the precise word when it is not |
 | Fred Rogers | tone | plain words with no condescension, say the hard thing directly |
 
 Drop either one and it fails in a predictable way. Without Rogers you get a

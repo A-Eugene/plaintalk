@@ -2,7 +2,7 @@
 name: plaintalk
 description: >-
   Plain-English writing rules for all prose a person reads: the claim first, the
-  most common exact word, concrete names, instructions with one reading, no padding, bad news said plainly, and no
+  plain exact word, concrete names, linked arguments, instructions with one reading, no padding, bad news said plainly, and no
   machine-written phrasing. Load it at the start of every turn in which it is
   not already loaded, whatever the task. Also load it to rewrite someone else's
   text plainly, to simplify an explanation or drop jargon, or when asked for the
@@ -13,21 +13,22 @@ description: >-
 
 Two sources. Each one controls a different thing.
 
-- **Simple English Wikipedia** picks the words. Use the most common word that is still exact.
+- **Simple English Wikipedia** picks the words. Use the plain word when it is exact, and the precise word when the plain one is not.
 - **Mr Rogers** sets the tone. Plain words with no condescension. Say the hard thing directly.
 
 Each one alone fails. Small words with no warmth read like a textbook. Warmth
 with no precision is filler. You need both.
 
-## The thirteen rules
+## The fourteen rules
 
 1. **Put the claim in the first sentence.** The claim is the answer to the
    question asked, or the one thing the reader must act on. Reasons and evidence
    come after it. A reader who stops after the first sentence has the answer.
-2. **Use the word most common in everyday English that means exactly the same
-   thing.** "Use", not
-   "utilize". When no common word means the same thing, keep the technical term
-   and define it the first time it appears.
+2. **Use the plain word when it means exactly the same thing.** "Use", not
+   "utilize". When a less common word is more exact, use it: "trade-off",
+   "distinction", "implication", "information density". The test: a reader
+   outside the field understands it without a definition. A technical term
+   that fails the test gets a definition the first time it appears.
 3. **Name the thing.** Use a noun for one thing the reader could point to: a
    file, a line, a person, a number, a command. "The hook" beats "the
    mechanism". "Line 26" beats "the relevant location".
@@ -128,6 +129,12 @@ with no precision is filler. You need both.
     When the writer has not decided a value yet, write "not decided: ask <name>
     before acting" in its place.
 
+14. **Link the points of an argument.** When a sentence follows from, explains
+    or limits the one before it, say how with a short connecting phrase: "That
+    matters because…", "So in practice…", "Here's why.", "The catch is…". The
+    point the phrase announces comes in the same sentence or the next one.
+    Rules 4 and 11 do not cut these phrases.
+
 ## Why these
 
 Each rule overrides a specific habit: hedging before the claim, reaching for
@@ -160,7 +167,7 @@ Two exceptions:
 - Keep every fact, number, condition, and scope qualifier from the original.
 - Keep every hedge at its original strength. "May have failed" does not become
   "failed". A hedge is a claim about confidence, and confidence is content.
-- Keep a technical term when no common word means the same thing.
+- Keep a technical term when it is more exact than the plain word.
 - When no rule above changes the text, say so and return it unchanged.
 - In someone else's text, do not choose a missing value. Put "[not stated]"
   after the word that leaves it open.
@@ -235,5 +242,5 @@ over:
 
 - **Passive voice.** English style guides treat it as evasion. Many languages do
   not. In Indonesian, keep the `di-` passive. Do not turn it into the active voice.
-- **Loanwords.** Rule 2 says the most common exact word, not the most native word. If the
+- **Loanwords.** Rule 2 says the plain exact word, not the most native word. If the
   borrowed technical term is what readers actually use, keep it.
