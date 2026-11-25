@@ -2,7 +2,7 @@
 name: plaintalk
 description: >-
   Plain-English writing rules for all prose a person reads: the claim first, the
-  plain exact word, concrete names, linked arguments, instructions with one reading, no padding, bad news said plainly, and no
+  plain exact word, concrete names, linked arguments, spoken scripts that sound spoken, instructions with one reading, no padding, bad news said plainly, and no
   machine-written phrasing. Load it at the start of every turn in which it is
   not already loaded, whatever the task. Also load it to rewrite someone else's
   text plainly, to simplify an explanation or drop jargon, or when asked for the
@@ -134,6 +134,23 @@ with no precision is filler. You need both.
     matters because…", "So in practice…", "Here's why.", "The catch is…". The
     point the phrase announces comes in the same sentence or the next one.
     Rules 4 and 11 do not cut these phrases.
+
+## Spoken scripts
+
+Write text that someone will say aloud the way people talk:
+
+- Use contractions: "I'm", "it's", "they've", "can't".
+- Join points that follow from each other with "so", "but", "because" or
+  "and". Rule 14 applies to most sentences in a script, not only to
+  arguments. A linking word joins facts already stated. It does not add a
+  conclusion: "so the same people keep coming back" is a new claim.
+- Mix short and long sentences. A run of one-point sentences sounds like a
+  list.
+- Hedge at most once per section. When several points share one doubt, say it
+  once at the start ("these benefits are my guesses, and I'd check them with
+  the owner"), then state each point plainly.
+- No bullets, no questions the speaker answers themselves, and no "On this
+  slide I will cover".
 
 ## Why these
 
