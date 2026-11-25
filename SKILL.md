@@ -19,6 +19,11 @@ Two sources. Each one controls a different thing.
 Each one alone fails. Small words with no warmth read like a textbook. Warmth
 with no precision is filler. You need both.
 
+The rules cut words that carry nothing. They do not make every sentence short.
+Write the way a careful person talks: contractions ("it's", "don't") in
+anything but a formal document, one sentence for one thought even when it holds
+two facts, and sentences of mixed length.
+
 ## The fourteen rules
 
 1. **Put the claim in the first sentence.** The claim is the answer to the
@@ -35,7 +40,9 @@ with no precision is filler. You need both.
 4. **Cut every adjective and adverb that does not change the meaning.** Test
    each one: delete it, and if the sentence still states the same fact, leave it
    deleted. "Significantly faster" is "faster" unless you have the number, and if
-   you have the number, use it.
+   you have the number, use it. A word that tells the reader how to weigh a
+   fact does change the meaning: "only 250 meters away" says the shop is close,
+   so "only" stays.
 5. **No metaphor in the sentence that states the claim.** State the claim
    literally first. An analogy may follow it in its own sentence, opened with
    "As an analogy" or "It is like". A reader who misreads a marked analogy still
@@ -100,8 +107,9 @@ with no precision is filler. You need both.
       "associated with", "connected to". Name who said it, and state the
       relation: "was CEO of", not "was associated with".
     - **"Not just X, but Y", "not X, but Y", "Y rather than X."** Each corrects
-      a belief. Use one only when the reader has said or written X. Otherwise
-      state Y.
+      a belief. Use one only when the reader has said or written X, or would
+      assume X without being told: "The warung can't beat Indomaret on price,
+      so it competes on speed." Otherwise state Y.
     - **Forced threes.** List as many items as there are. Do not add or merge
       items to reach three.
     - **Synonym cycling.** Give one thing one name and repeat it. A reader who sees
@@ -135,6 +143,10 @@ with no precision is filler. You need both.
     point the phrase announces comes in the same sentence or the next one.
     Rules 4 and 11 do not cut these phrases.
 
+    Do not split one thought into separate sentences. "It is a sole ownership.
+    The owner runs the whole shop alone." is one thought: "It's a sole
+    ownership, and the owner runs the whole shop alone."
+
 ## Spoken scripts
 
 Write text that someone will say aloud the way people talk:
@@ -148,7 +160,8 @@ Write text that someone will say aloud the way people talk:
   list.
 - Hedge at most once per section. When several points share one doubt, say it
   once at the start ("these benefits are my guesses, and I'd check them with
-  the owner"), then state each point plainly.
+  the owner"), then state each point with no hedge of its own: "This brings
+  in some extra orders", not "I assume this brings in some extra orders".
 - No bullets, no questions the speaker answers themselves, and no "On this
   slide I will cover".
 
@@ -185,6 +198,9 @@ Two exceptions:
 - Keep every hedge at its original strength. "May have failed" does not become
   "failed". A hedge is a claim about confidence, and confidence is content.
 - Keep a technical term when it is more exact than the plain word.
+- Give one concrete case the reader can picture, built only from facts already
+  stated and marked as an example: "Say a neighbour runs out of cooking oil.
+  The shop is right there." It is an illustration, not a new fact.
 - When no rule above changes the text, say so and return it unchanged.
 - In someone else's text, do not choose a missing value. Put "[not stated]"
   after the word that leaves it open.
